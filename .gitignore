@@ -1,0 +1,12 @@
+# Emacs backup/autosave files
+*~
+\#.gitignore#
+
+# Various Emacs directories
+auto-save-list/
+eln-cache/
+straight/
+transient/
+
+# Misc other Emacs files
+projects
