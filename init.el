@@ -79,6 +79,7 @@
   )
 
 (use-package multiple-cursors
+  :defer nil
   :bind
   ("<s-mouse-1>" . mc/add-cursor-on-click)
   ("<C-mouse-1>" . mc/add-cursor-on-click)
