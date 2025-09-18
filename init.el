@@ -20,6 +20,7 @@
   (load bootstrap-file nil 'nomessage))
 
 (setq use-package-compute-statistics t)   ;; Run M-: (use-package-report) to see the results
+(setq use-package-always-defer t)         ;; Always defer package loading
 (setq straight-use-package-by-default t)  ;; Always use package
 
 
