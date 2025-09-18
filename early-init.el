@@ -17,7 +17,9 @@
                             (horizontal-scroll-bars . nil)
                             (ns-transparent-titlebar . t)))
 
-(tool-bar-mode -1)             ; All these tools are in the menu-bar anyway
+(tool-bar-mode -1)
+(menu-bar-mode -1)
+
 (setq frame-title-format nil)  ; Don't show the filename in the title bar
 (setq ns-use-proxy-icon nil)   ; Don't show file icon in title bar (MacOS only)
 (setq ns-pop-up-frames nil)    ; On external request to open file, use current frame (MacOS only)
