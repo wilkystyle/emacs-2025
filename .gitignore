@@ -3,10 +3,12 @@
 \#.gitignore#
 
 # Various Emacs directories
-auto-save-list/
-eln-cache/
-straight/
-transient/
+/auto-save-list
+/eln-cache
+/straight
+/tramp
+/transient
+/tree-sitter
 
 # Misc other Emacs files
-projects
+/projects
