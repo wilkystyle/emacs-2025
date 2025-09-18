@@ -1,3 +1,5 @@
+(add-hook 'emacs-startup-hook (lambda () (message "Emacs startup time: %s" (emacs-init-time))))
+
 ;; =============================================================================
 ;; BOOTSTRAP STRAIGHT.EL
 ;; =============================================================================
