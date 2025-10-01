@@ -51,6 +51,8 @@
 ;; =============================================================================
 (keymap-global-set "C-M-d" 'duplicate-dwim)
 (keymap-global-set "C-M-k" 'kill-whole-line)
+(keymap-global-set "C-r" 'isearch-backward-regexp)
+(keymap-global-set "C-s" 'isearch-forward-regexp)
 (keymap-global-set "C-x C-k" 'kill-buffer)
 (keymap-global-set "M-;" '(lambda () (interactive) (save-excursion (comment-line 1))))
 (keymap-global-set "M-c" 'capitalize-dwim)
