@@ -41,6 +41,7 @@
 ;; =============================================================================
 ;; OPTIONS
 ;; =============================================================================
+(setq scroll-conservatively 10000 scroll-step 1)  ;; Smooth keyboard scrolling by single line
 (setq sort-fold-case t)
 (setq treesit-font-lock-level 4)
 
