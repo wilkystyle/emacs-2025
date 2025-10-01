@@ -1,5 +1,7 @@
 (add-hook 'emacs-startup-hook (lambda () (message "Emacs startup time: %s" (emacs-init-time))))
 
+(load-theme 'mike-adonis-darker t)
+
 ;; =============================================================================
 ;; BOOTSTRAP STRAIGHT.EL
 ;; =============================================================================
